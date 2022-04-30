@@ -65,7 +65,7 @@ const skills = {
     { name: "SQL/NoSQL", value: 75 },
     { name: "Kubernetes", value: 50 },
     { name: "Docker", value: 70 ,icon: require("../editable-stuff/Docker.png")},
-    { name: "Linux", value: 50 },
+    { name: "Linux", value: 80 },
     { name: "Azure DevOps", value: 50 },
 
   ],
