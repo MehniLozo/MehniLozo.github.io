@@ -31,7 +31,7 @@ const about = {
   imageLink: require("../editable-stuff/me2.jpg"),
   imageSize: 375,
   message:
-    "This is Aziz Chebaane. A Computer Science student at ISIMM."+ '\r\n' +" Detailed-oriented with a get-it-done,on-time and high quality DevOps mindset. I'm mostly passionate about Cloud and AI technologies. Twitter is my free time space ",
+    "This is Aziz Chebaane. A Computer Science student at ISIMM."+ '\r\n' +" Detailed-oriented with a get-it-done,on-time and high quality DevOps mindset. I'm mostly passionate about Backend and Cloud Computing. Twitter is my free time space ",
   resume: require("../editable-stuff/Chebaane.pdf"),
 };
 const repos = {
@@ -51,22 +51,21 @@ const skills = {
     { name: "Data Structures", value: 85 },
     { name: "C", value: 75 },
     { name: "Golang", value: 60 },
-    {name: "Java", value: 70},
+    {name: "Java", value: 80},
     { name: "JavaScript", value: 90 },
     { name: "HTML/CSS", value: 70 },
     { name: "React", value: 65 },
     { name: "NodeJS", value: 80 },
+    { name: "TypeScript", value: 45 },
 
   ],
     tools: [
     { name: "NumPy", value: 50 },
     { name: "Pandas", value: 60},
-    { name: "Scikit-learn", value: 40},
     { name: "SQL/NoSQL", value: 75 },
-    { name: "Kubernetes", value: 50 },
-    { name: "Docker", value: 70 ,icon: require("../editable-stuff/Docker.png")},
+    { name: "Docker", value: 65 ,icon: require("../editable-stuff/Docker.png")},
     { name: "Linux", value: 80 },
-    { name: "Azure DevOps", value: 50 },
+    { name: "Azure DevOps", value: 70 },
 
   ],
   softSkills: [
