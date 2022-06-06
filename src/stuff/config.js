@@ -32,7 +32,7 @@ const about = {
   imageSize: 375,
   message:
     "This is Aziz Chebaane. A Computer Science student at ISIMM."+ '\r\n' +" Detailed-oriented with a get-it-done,on-time and high quality DevOps mindset. I'm mostly passionate about Backend and Cloud Computing. Twitter is my free time space ",
-  resume: require("../editable-stuff/Chebaane.pdf"),
+  resume: require("../editable-stuff/ChebaaneFR.pdf"),
 };
 const repos = {
   show: true,
