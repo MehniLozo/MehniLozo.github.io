@@ -31,8 +31,8 @@ const about = {
   imageLink: require("../editable-stuff/me2.jpg"),
   imageSize: 375,
   message:
-    "This is Aziz Chebaane. A Computer Science student at ISIMM."+ '\r\n' +" Detailed-oriented with a get-it-done,on-time and high quality DevOps mindset. I'm mostly passionate about Backend and Cloud Computing. Twitter is my free time space ",
-  resume: require("../editable-stuff/ChebaaneFR.pdf"),
+    "Aziz Chebaane. A software developer skilled in crafting scalable software solutions. Aims for detail and timely project completion. " + '\r\n' + " Lives under the realm of Backend & AI Computing",
+  resume: require("../editable-stuff/WORK_EXPERIENCE.pdf"),
 };
 const repos = {
   show: true,
@@ -51,7 +51,7 @@ const skills = {
     { name: "Data Structures", value: 85 },
     { name: "C", value: 75 },
     { name: "Golang", value: 60 },
-    {name: "Java", value: 80},
+    { name: "Java", value: 80 },
     { name: "HTML/CSS", value: 70 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 65 },
@@ -59,11 +59,11 @@ const skills = {
     { name: "TypeScript", value: 45 },
 
   ],
-    tools: [
+  tools: [
     { name: "NumPy", value: 50 },
-    { name: "Pandas", value: 60},
+    { name: "Pandas", value: 60 },
     { name: "SQL/NoSQL", value: 75 },
-    { name: "Docker", value: 65 ,icon: require("../editable-stuff/Docker.png")},
+    { name: "Docker", value: 65, icon: require("../editable-stuff/Docker.png") },
     { name: "Linux", value: 80 },
     { name: "Azure DevOps", value: 70 },
 
@@ -89,4 +89,4 @@ const getInTouch = {
     "I'm currently looking for Software related opportunities, if i seem to be competent filling your void please dont hesitate to get in touch via",
   email: "chebaaneaziz28@gmail.com",
 };
-export { navBar, mainBody, about, repos, skills,getInTouch };
+export { navBar, mainBody, about, repos, skills, getInTouch };
